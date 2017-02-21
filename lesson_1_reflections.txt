@@ -1,0 +1,55 @@
+Question: 
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer: 
+It showed the changes you made to the original version file that worked.  
+Seeing the changes narrowed down the options for finding possible bugs.
+
+Question: 
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer: 
+By comparing old versions that work and a current verion with problematic bugs,
+it is easier to find the bugs.  Also, if the programmer simply cannot find the bug,
+they can restart from the most recent version that worked.
+
+Question:
+What do you think are the pros and cons of manually choosing when 
+to create a commit, like you do in Git, vs having versions automatically saved, 
+like Google Docs does?
+
+Answer:
+Manually choosing when to creat a commit is useful because they can have a single, 
+logical purpose.  Also, you can make sure each commit is not too big or small.
+Automatically saved versions may not make sense and in some cases the code may not even run.
+
+Question:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer:
+I think Git allows saving multiple files in one commit because some code
+projects require multiple files that are interconnected.  For example, a
+webpage that uses html, css, and Javascript files.
+
+I think Google Docs treats each files separately because they expect the user
+to work on projects that require only one file, such as an essay.
+
+Question:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer:
+Using git log shows all commits made in a repository.
+
+Using git diff shows changes made between two different commits.
+
+Question:
+How might using version control make you more confident to make changes that could break something?
+
+Answer:
+Because it is easy to restore your project to a version that works.
+
+Question:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer:
+I want to try using Git for making my personal portfolio website.
