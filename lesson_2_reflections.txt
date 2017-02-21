@@ -1,0 +1,16 @@
+Question:
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer:
+The .git file is added to the directory that has been initialized to become a repository, but no commits are made.  
+
+You need to do it so you can make it possible to make commits.
+
+Question:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Answer:
+The staging area is sort of a middle ground between the working directory and the repository.  
+Instead of committing files directly from the working directory to the repository,
+files are put into the working directory first.  Then, the user can decide to finally commit
+these files to the repository.
