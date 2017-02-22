@@ -31,3 +31,10 @@ Branches would be helpful when you want to make an experimental feature or
 when you want to make a test version of your site in another language.
 Branches allow to easily switch between different versions of your code,
 as well as combine different versions of your code if you desire.
+
+Question:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+They show you which commits can access other commits within a branch and
+when commits were made in relations to commits in different branches.
