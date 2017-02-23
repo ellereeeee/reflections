@@ -47,3 +47,22 @@ Answer:
 The two branches are joined into one commit.  
 The new commit is the HEAD of the branch that was checked out at the time of the merge.
 We represent it that way because the new commit can access the previous commits of the two parent branches.
+
+Question:
+What are the pros and conts of Git's automatic merging vs. always doing merges manually?
+
+Answer:
+automatic merging
+pros 
+  - quickly compares two commits
+  - quickly combines two commits into one
+
+cons
+  - doesn't check if there is similar code written in different places
+  
+manual merging
+pros
+  - more thorough
+  
+cons
+  - takes longer
