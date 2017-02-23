@@ -38,3 +38,12 @@ How do the diagrams help you visualize the branch structure?
 Answer:
 They show you which commits can access other commits within a branch and
 when commits were made in relations to commits in different branches.
+
+Question:
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Answer:
+The two branches are joined into one commit.  
+The new commit is the HEAD of the branch that was checked out at the time of the merge.
+We represent it that way because the new commit can access the previous commits of the two parent branches.
