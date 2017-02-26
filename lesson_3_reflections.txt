@@ -5,3 +5,11 @@ Answer:
 1) Backing up your project files
 2) Uploading your project for feedback from others
 3) Collaborating on a project with others/making your project open source
+
+Question:
+Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote repository?
+
+Answer:
+The user may later decide they don't want the changes made on GitHub,
+so there would be no reason to pull changes yet.
