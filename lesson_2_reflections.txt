@@ -12,7 +12,7 @@ How is the staging area different from the working directory and the repository?
 Answer:
 The staging area is sort of a middle ground between the working directory and the repository.  
 Instead of committing files directly from the working directory to the repository,
-files are put into the working directory first.  Then, the user can decide to finally commit
+files are put into the staging area first.  Then, the user can decide to finally commit
 these files to the repository.
 
 Question:
