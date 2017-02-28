@@ -20,10 +20,19 @@ Describe the differences between forks, clones, and branches. When would you use
 Answer:
 branch - a history of commits with the most recent one being at the end or "tip" of the branch.
 Branches are created when the user wants to work on something while not affecting.
-the prodution code.
+the production code.
 
 clone - copying a repository.
-Cloning is used when a user wants to copy a remote or local repisitory into another local repository.
+Cloning is used when a user wants to copy a remote or local repository into another local repository.
 
 fork - copying a remote from another user into a new remote repository of the user.
 Used when you want the code from another user, while still crediting their work.
+
+Question:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer:
+You can see how many commits you are ahead of the remote repo on GitHub.
+If you're far ahead, it could be a good indicator to push your commits.
+If you use git fetch, it can show how many commits you are behind,
+or if there is a conflict between two commits.
