@@ -36,3 +36,14 @@ You can see how many commits you are ahead of the remote repo on GitHub.
 If you're far ahead, it could be a good indicator to push your commits.
 If you use git fetch, it can show how many commits you are behind,
 or if there is a conflict between two commits.
+
+Question:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer:
+You could send the files to each other via e-mail, or keep all of your versions
+uploaded on a cloud service such as Dropbox.
+If the user wasn't always making add, commit, push, and pull requests, then they may save some time.
+Collaborating might be more difficult because you would have tell your partner
+where you made changes, and you would to check if there are any conflicts,
+which Github does for you.
