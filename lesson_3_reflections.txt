@@ -47,3 +47,15 @@ If the user wasn't always making add, commit, push, and pull requests, then they
 Collaborating might be more difficult because you would have tell your partner
 where you made changes, and you would to check if there are any conflicts,
 which Github does for you.
+
+Question:
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+Answer:
+You would make changes in a separate branch when you want someone else to review your changes
+before adding it to production code.
+If everyone does this on a project, then everyone will be aware of changes,
+allowing people to build upon each others' contributions and not making the same changes.
+Making changes directly to the master branch can mean a faster workflow, but more
+opportunities for code conflicts and confusion among collaborators.
